@@ -1,0 +1,80 @@
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>photo gallery</title>
+
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#home">home</a></li>
+            <li class="links"><a href="#grid">grid</a></li>
+            <li class="links"><a href="#slide">slide</a></li>
+        </ul>
+    </center>
+    <section id="slide">
+        <h1 class="title">Slide</h1>
+
+        <div id="mycarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <img class="img-responsive" src="daisy.png">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="lavender.png">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="rose.png">
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <img class="img-responsive" src="tulip.png">
+                    </center>
+                </div>
+
+            </div>
+            <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+
+            <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+    </section>
+    
+    <section id="grid">
+        <center>
+        <h1 class="title">grid</h1>
+       <span class="sp">
+   <img  class="image" src="lavender.png">
+  </span> <span class="sp"><img  class="image" src="rose.png">
+ </span>
+        <br><br>
+        <div>
+        <span class="sp">
+   <img class="image" src="tulip.png">
+  </span> <span class="sp"><img  class="image" src="daisy.png">
+ </span>
+        </div>
+            </center>
+    </section>
+
+
+</body>
+
+</html>
